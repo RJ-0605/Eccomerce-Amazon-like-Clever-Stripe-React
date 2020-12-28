@@ -5,7 +5,7 @@ import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import { Link } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
-import rj_logo  from "rj_logo.jpg"
+import rj_logo  from "./rj_logo.jpg"
 
 function Header() {
   const [{ basket, user }, dispatch] = useStateValue();
