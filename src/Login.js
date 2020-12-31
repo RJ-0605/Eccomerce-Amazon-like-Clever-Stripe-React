@@ -57,11 +57,11 @@ function Login() {
                 </form>
 
                 <p>
-                    By signing-in you agree to the AMAZON FAKE CLONE Conditions of Use & Sale. Please
+                    By signing-in you agree to R J Inc. Conditions of Use & Sale. Please
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
 
-                <button onClick={register} className='login__registerButton'>Create your Amazon Account</button>
+                <button onClick={register} className='login__registerButton'>Create your own Account</button>
             </div>
         </div>
     )
